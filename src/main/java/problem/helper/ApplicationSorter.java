@@ -9,14 +9,17 @@ package problem.helper;
 import org.instancio.Instancio;
 import problem.model.SoftwareApplication;
 
+import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 
 public class ApplicationSorter {
-
+    private final int numberOfApplications;
     private String[] applicationNames;
 
     public ApplicationSorter(int numberOfApplications) {
-        this.setApplicationNames(numberOfApplications);
+        this.numberOfApplications = numberOfApplications;
+        this.setApplicationNames();
         this.sortApplicationNamesByLength();
     }
 
@@ -24,19 +27,19 @@ public class ApplicationSorter {
         return applicationNames;
     }
 
-    public void setApplicationNames(int numberOfApplications) {
-        List<SoftwareApplication> softwareApplicationList = createFakeApplicationsList(numberOfApplications);
+    public void setApplicationNames() {
+        List<SoftwareApplication> softwareApplicationList = createFakeApplicationsList(this.numberOfApplications);
         // fetch the names of the software applications and create a new list
         List<String> list = softwareApplicationList.stream()
                 .map(SoftwareApplication::getApplicationName)
                 .toList();
         // initialize the array
-        this.applicationNames = new String[numberOfApplications];
+        this.applicationNames = new String[this.numberOfApplications];
         // convert the list of software names to an array
         list.toArray(this.applicationNames);
     }
 
-    private static List<SoftwareApplication> createFakeApplicationsList(int numberOfApplications) {
+    static List<SoftwareApplication> createFakeApplicationsList(int numberOfApplications) {
         // create a list of fake software application objects using the Instancio library
         return Instancio.ofList(SoftwareApplication.class).size(numberOfApplications).create();
     }
