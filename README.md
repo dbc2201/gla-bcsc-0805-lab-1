@@ -52,7 +52,6 @@ to see an example of the names.
 **Note**
 
 - Test cases are included with the code [here](src/test/java/problem/helper/ApplicationSorterTest.java).
-- _Internet is required to run the code and the tests._
 
 ---
 
