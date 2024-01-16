@@ -73,3 +73,10 @@ An array of String sorted by the length of each string
 ```
 [GGG, TNL, VTU, LCWR, JBNEB, FXWTO, ICNHYGS, SQBKIXMN, LBINCPNCI, VPXCTFKKDP]
 ```
+
+---
+
+**Hints**
+
+- [Arrays.sort() method](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Arrays.html#sort(java.lang.Object[]))
+- [Stream.sorted() method](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/stream/Stream.html#sorted())
