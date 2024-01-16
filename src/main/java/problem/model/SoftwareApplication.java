@@ -49,4 +49,12 @@ public class SoftwareApplication {
     public int hashCode() {
         return Objects.hash(getApplicationName(), getCost());
     }
+
+    @Override
+    public String toString() {
+        return "SoftwareApplication{" +
+                "applicationName='" + applicationName + '\'' +
+                ", cost=" + cost +
+                '}';
+    }
 }
