@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2a79858-c8b7-4bf7-a732-f1f175e169a5" name="Changes" comment="created SoftwareApplication.java">
+    <list default="true" id="f2a79858-c8b7-4bf7-a732-f1f175e169a5" name="Changes" comment="added toString()">
+      <change afterPath="$PROJECT_DIR$/src/main/java/problem/helper/ApplicationSorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/problem/helper/FakeApplicationsCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/problem/model/SoftwareApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problem/model/SoftwareApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/problem/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problem/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +134,7 @@
       <updated>1705412043901</updated>
       <workItem from="1705412046241" duration="2338000" />
       <workItem from="1705414508515" duration="575000" />
-      <workItem from="1705415116487" duration="2298000" />
+      <workItem from="1705415116487" duration="4062000" />
     </task>
     <task id="LOCAL-00001" summary="set initial version">
       <option name="closed" value="true" />
@@ -189,7 +192,47 @@
       <option name="project" value="LOCAL" />
       <updated>1705420639727</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added fields for SoftwareApplication">
+      <option name="closed" value="true" />
+      <created>1705421441284</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1705421441284</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added constructors for SoftwareApplication">
+      <option name="closed" value="true" />
+      <created>1705421473782</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1705421473782</updated>
+    </task>
+    <task id="LOCAL-00010" summary="added getters and setters">
+      <option name="closed" value="true" />
+      <created>1705421495881</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1705421495881</updated>
+    </task>
+    <task id="LOCAL-00011" summary="added equals() and hashCode()">
+      <option name="closed" value="true" />
+      <created>1705421545748</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1705421545748</updated>
+    </task>
+    <task id="LOCAL-00012" summary="added toString()">
+      <option name="closed" value="true" />
+      <created>1705421578653</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1705421578653</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +257,11 @@
     <MESSAGE value="added the main() method" />
     <MESSAGE value="added dependency for Instancio" />
     <MESSAGE value="created SoftwareApplication.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="created SoftwareApplication.java" />
+    <MESSAGE value="added fields for SoftwareApplication" />
+    <MESSAGE value="added constructors for SoftwareApplication" />
+    <MESSAGE value="added getters and setters" />
+    <MESSAGE value="added equals() and hashCode()" />
+    <MESSAGE value="added toString()" />
+    <option name="LAST_COMMIT_MESSAGE" value="added toString()" />
   </component>
 </project>
