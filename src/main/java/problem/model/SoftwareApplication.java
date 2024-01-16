@@ -6,6 +6,8 @@
 
 package problem.model;
 
+import java.util.Objects;
+
 public class SoftwareApplication {
     private String applicationName;
     private double cost;
@@ -32,5 +34,19 @@ public class SoftwareApplication {
 
     public void setCost(double cost) {
         this.cost = cost;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        SoftwareApplication that = (SoftwareApplication) o;
+        return Double.compare(getCost(), that.getCost()) == 0
+                && Objects.equals(getApplicationName(), that.getApplicationName());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getApplicationName(), getCost());
     }
 }
