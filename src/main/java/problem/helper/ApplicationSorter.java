@@ -18,7 +18,7 @@ public class ApplicationSorter {
     public ApplicationSorter(int numberOfApplications) {
         this.numberOfApplications = numberOfApplications;
         this.setApplicationNames();
-        this.sortApplicationNamesByLength();
+        this.sortApplicationNamesByLength(this.applicationNames);
     }
 
     static List<SoftwareApplication> createFakeApplicationsList(int numberOfApplications) {
@@ -48,7 +48,7 @@ public class ApplicationSorter {
      * created as a field to this class.
      */
     // TODO: complete this method
-    public void sortApplicationNamesByLength() {
-
+    public String[] sortApplicationNamesByLength(String[] applicationNames) {
+        return new String[]{};
     }
 }

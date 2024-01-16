@@ -15,13 +15,13 @@ class ApplicationSorterTest {
         // arrange
         ApplicationSorter applicationSorter = new ApplicationSorter(numberOfApplications);
         String[] applicationNames = applicationSorter.getApplicationNames();
-        String[] sortedNames = Arrays.stream(applicationNames)
+        String[] expectedSortedNames = Arrays.stream(applicationNames)
                 .sorted(Comparator.comparingInt(String::length))
                 .toArray(String[]::new);
         // act
-        applicationSorter.sortApplicationNamesByLength();
+        String[] actualSortedNames = applicationSorter.sortApplicationNamesByLength(applicationNames);
         // assert
-        Assertions.assertArrayEquals(sortedNames, applicationNames,
+        Assertions.assertArrayEquals(expectedSortedNames, actualSortedNames,
                 "Names are not sorted according to length");
     }
 }

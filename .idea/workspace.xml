@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2a79858-c8b7-4bf7-a732-f1f175e169a5" name="Changes" comment="completed problem code">
-      <change afterPath="$PROJECT_DIR$/.attach_pid29534" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="f2a79858-c8b7-4bf7-a732-f1f175e169a5" name="Changes" comment="fixed typo">
       <change beforePath="$PROJECT_DIR$/src/main/java/problem/helper/ApplicationSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problem/helper/ApplicationSorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/problem/helper/ApplicationSorterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/problem/helper/ApplicationSorterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +181,7 @@
       <updated>1705412043901</updated>
       <workItem from="1705412046241" duration="2338000" />
       <workItem from="1705414508515" duration="575000" />
-      <workItem from="1705415116487" duration="6673000" />
+      <workItem from="1705415116487" duration="7228000" />
     </task>
     <task id="LOCAL-00001" summary="set initial version">
       <option name="closed" value="true" />
@@ -297,7 +295,31 @@
       <option name="project" value="LOCAL" />
       <updated>1705424838551</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="completed problem">
+      <option name="closed" value="true" />
+      <created>1705425874291</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1705425874291</updated>
+    </task>
+    <task id="LOCAL-00016" summary="completed problem">
+      <option name="closed" value="true" />
+      <created>1705425956334</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1705425956334</updated>
+    </task>
+    <task id="LOCAL-00017" summary="fixed typo">
+      <option name="closed" value="true" />
+      <created>1705426049805</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1705426049805</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,6 +351,8 @@
     <MESSAGE value="added toString()" />
     <MESSAGE value="created FakeApplicationsCreator.java" />
     <MESSAGE value="completed problem code" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed problem code" />
+    <MESSAGE value="completed problem" />
+    <MESSAGE value="fixed typo" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed typo" />
   </component>
 </project>
