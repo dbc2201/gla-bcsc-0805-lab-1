@@ -26,12 +26,50 @@ programming skills.
 
 ---
 
-#### Problem Statement
+Problem Statement
+---
+
+Tarun is an aspiring software engineer, currently studying in second year of engineering.
+He is a very hardworking and sincere student focusing on learning programming and building software
+development skills.
+He has lots of ideas for creating new software and write code names for his ideas in his notebook.  
+```
+Ex -  
+NTA  - Note Taking Application
+AMRS - Attendance Modificaition Request System
+HBIAA - Hotel Booking And Invoicing Application  
+
+```  
+He has created an array of String to store all the names of his software ideas in code names
+and wants to sort the names in order of their length.  
+
+Complete the method `sortApplicationNamesByLength()` given [here](src/main/java/problem/helper/ApplicationSorter.java) 
+to help him sort the names in the array.
+
+You can run the `main()` method given [here](src/main/java/problem/Main.java)
+to see an example of the names.
+
+**Note**
+
+- Test cases are included with the code [here](src/test/java/problem/helper/ApplicationSorterTest.java).
+- <u>Internet is required to run the code and the tests.</u>
 
 ---
 
 **Sample Input**
 
+An array of Strings
+
+```
+[GGG, TNL, JBNEB, FXWTO, VPXCTFKKDP, VTU, ICNHYGS, LCWR, SQBKIXMN, LBINCPNCI]
+```
+
 ---
 
 **Sample Output**
+
+An array of String sorted by the length of each string
+
+```
+[GGG, TNL, VTU, LCWR, JBNEB, FXWTO, ICNHYGS, SQBKIXMN, LBINCPNCI, VPXCTFKKDP]
+```

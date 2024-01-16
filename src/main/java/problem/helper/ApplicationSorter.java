@@ -9,8 +9,6 @@ package problem.helper;
 import org.instancio.Instancio;
 import problem.model.SoftwareApplication;
 
-import java.util.Arrays;
-import java.util.Comparator;
 import java.util.List;
 
 public class ApplicationSorter {
@@ -21,6 +19,11 @@ public class ApplicationSorter {
         this.numberOfApplications = numberOfApplications;
         this.setApplicationNames();
         this.sortApplicationNamesByLength();
+    }
+
+    static List<SoftwareApplication> createFakeApplicationsList(int numberOfApplications) {
+        // create a list of fake software application objects using the Instancio library
+        return Instancio.ofList(SoftwareApplication.class).size(numberOfApplications).create();
     }
 
     public String[] getApplicationNames() {
@@ -37,11 +40,6 @@ public class ApplicationSorter {
         this.applicationNames = new String[this.numberOfApplications];
         // convert the list of software names to an array
         list.toArray(this.applicationNames);
-    }
-
-    static List<SoftwareApplication> createFakeApplicationsList(int numberOfApplications) {
-        // create a list of fake software application objects using the Instancio library
-        return Instancio.ofList(SoftwareApplication.class).size(numberOfApplications).create();
     }
 
     /**
