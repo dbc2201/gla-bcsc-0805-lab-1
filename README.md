@@ -32,15 +32,15 @@ Problem Statement
 Tarun is an aspiring software engineer, currently studying in second year of engineering.
 He is a very hardworking and sincere student focusing on learning programming and building software
 development skills.
-He has lots of ideas for creating new software and write code names for his ideas in his notebook.  
+He has lots of ideas for creating new software and writes code names for his ideas in his notebook.  
 ```
 Ex -  
 NTA  - Note Taking Application
 AMRS - Attendance Modificaition Request System
-HBIAA - Hotel Booking And Invoicing Application  
+HBAIA - Hotel Booking And Invoicing Application  
 
 ```  
-He has created an array of String to store all the names of his software ideas in code names
+He has created an array of String to store all the names of his software ideas (in code names)
 and wants to sort the names in order of their length.  
 
 Complete the method `sortApplicationNamesByLength()` given [here](src/main/java/problem/helper/ApplicationSorter.java) 
